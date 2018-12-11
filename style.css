@@ -1,0 +1,446 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-family: 'Neucha', cursive,'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #8e8e90;
+  display: flex;
+  flex-wrap: wrap;
+  height: 13rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.header__nav {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.header__nav--top {
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  justify-content: flex-end;
+  margin-right: 2.7rem;
+  margin-top: 1rem;
+  text-align: right;
+  width: 98%;
+}
+
+.header__nav--hamburger {
+  background-image: url("./assets/hamburger-icon.png");
+  background-repeat: no-repeat;
+  background-size: 4.5rem;
+  display: none;
+  flex-basis: 50%;
+  height: 5rem;
+  margin-bottom: 1rem;
+  width: 3rem;
+}
+
+.list--item:link,
+.list--item:visited,
+.card--link:link,
+.card--link:visited {
+  color: #68228B;
+  text-decoration: none;
+}
+
+.list--item:hover {
+  font-weight: bold;
+}
+
+.list--item1,
+.list--item1:link,
+.list--item1:visited {
+  color: #51EDDD;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  margin-top: .25rem;
+  padding: 0 .75rem;
+}
+
+.homepage-link {
+  -webkit-transition: color .4s linear;
+  -moz-transition: color .4s linear;
+  -ms-transition: color .4s linear;
+  -o-transition: color .4s linear;
+  transition: color .4s linear;
+}
+
+.homepage-link:hover {
+  color: #e49acc;
+}
+
+.header__nav--top:after,
+.header__nav--top:before {
+  content: "";
+  display: inline-block;
+}
+
+.header__nav--top:before {
+  background-image: url("./assets/user-icon.png");
+  background-size: 1.7rem;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.header__nav--top:after {
+  background-image: url("./assets/drop-down-arrow-icon.png");
+  background-size: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  margin-top: .25rem;
+  width: 1rem;
+}
+
+.header__nav--list {
+  color: #FFF;
+  display: flex;
+  flex-basis: 50%;
+  list-style-type: none;
+}
+
+.nav__list--item {
+  color: #FFF;
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+  margin-left: 1.5rem;
+}
+
+.list--item2:before,
+.list--item3:before,
+.list--item4:before,
+.nav__logo--item:after {
+  content: "";
+  display: inline-block;
+}
+
+.list--item2:before,
+.list--item3:before,
+.list--item4:before {
+  margin-right: 1rem;
+}
+
+.list--item2:before {
+  background-image: url("./assets/shares-icon.png");
+  background-size: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.list--item3:before {
+  background-image: url("./assets/actions-icon.png");
+  background-size: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.list--item4:before {
+  background-image: url("./assets/case-updates-icon.png");
+  background-size: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.header__nav--logo {
+  display: flex;
+}
+
+.nav__logo--item {
+  flex-basis: 50%;
+  font-family: 'Neucha', cursive;
+  font-size: 5rem;
+  letter-spacing: .25rem;
+  margin-right: 2.25rem;
+  text-align: right;
+}
+
+.nav__logo--item:after {
+  background-image: url("./assets/site-title-icon.png");
+  background-size: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  width: 4rem;
+}
+
+.main {
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+.main__heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 2rem 0 2rem 1rem;
+}
+
+.main__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.card {
+  background-color: #f9f8fd;
+  border-radius: .1rem;
+  box-shadow: -2px 1px 7px 1px #332533;
+  flex: 0 1 calc(25% - 1em);
+  height: 40rem;
+  margin-bottom: 1.5em;
+}
+
+.card__text {
+  margin: 1.25rem;
+}
+
+.card__image {
+  background-position: top;
+  background-size: cover;
+  display: block;
+  height: 33%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.card__image--icon {
+  background-image: url("./assets/dollar-sign-icon.png");
+  background-size: 5rem;
+  height: 5rem;
+  left: 1rem;
+  position: absolute;
+  top: 1rem;
+  width: 5rem;
+}
+
+.card__image--icon::before {
+  background-color: #41aba0;
+  background-size: 5.5rem;
+  border-radius: 50%;
+  content: "";
+  height: 5.55rem;
+  left: -.275rem;
+  position: absolute;
+  top: -.275rem;
+  width: 5.55rem;
+  z-index: -1;
+}
+
+.card__image--days {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+  padding: .5rem 1rem 0;
+  position: absolute;
+  right: 1rem;
+  text-align: center;
+  top: 1rem;
+}
+
+.card__image--days-text {
+  color: #FFF;
+  font-size: 1rem;
+  font-family: roboto;
+  font-weight: 100;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+}
+
+.card__image--days-number {
+  color: #FFF;
+  font-size: 3rem;
+  margin-top: .75rem;
+}
+
+.card__text--name {
+  color: #e49acc;
+  font-size: 2rem;
+  height: 3rem;
+  letter-spacing: .25rem;
+  overflow: hidden;
+}
+
+.card__text--date {
+  letter-spacing: .1rem;
+  margin: .3rem 0 3rem;
+}
+
+.card__text--learn-more-container {
+  background-color: #f0f0f0;
+  height: 5rem;
+  padding: 1.6rem 0 1.6rem .5rem;
+}
+
+.card__text--learn-more {
+  font-size: 1.5rem;
+}
+
+.card__text--learn-more:hover {
+  font-style: italic;
+}
+
+strong {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: .1rem;
+}
+
+.card__text--action,
+.card__text--bail {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: .1rem;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+.card__text--action-type {
+  font-size: 1.5rem;
+  margin-top: .4rem;
+  letter-spacing: .1rem;
+}
+
+.card__text--bail {
+  margin-top: 1.5rem;
+}
+
+.card__text--bail-amount {
+  color: #41aba0;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  margin-top: .75rem;
+}
+
+.img1 {
+  background-image: url("./assets/profile-pics/floris-white-bull.jpg");
+  background-position-y: 21%;
+}
+
+.img2 {
+  background-image: url("./assets/profile-pics/pussy-riot.jpg");
+  background-position-x: 99%;
+  background-position-y: 93%;
+  background-size: 125%;
+}
+
+.img3 {
+  background-image: url("./assets/profile-pics/rosa-parks.jpg");
+  background-position-y: 16%;
+}
+
+.img4 {
+  background-image: url("./assets/profile-pics/kavanaugh-protestor.jpg");
+  background-position-y: 6%;
+}
+
+.img5 {
+  background-image: url("./assets/profile-pics/occupy-wall-street.jpg");
+}
+
+.img6 {
+  background-image: url("./assets/profile-pics/suffragettes.jpg");
+  background-position-x: 66%;
+  background-position-y: 19%;
+  background-size: 135%;
+}
+
+.img7 {
+  background-image: url("./assets/profile-pics/emma-goldman.jpg");
+  background-position-y: 23%;
+}
+
+.img8 {
+  background-image: url("./assets/profile-pics/ieshia-evans-batonrouge.jpg");
+  background-position-y: 35%;
+}
+
+
+/* ******* media queries ******* */
+
+@media (min-width: 1281px) {
+  html {
+    font-size: 85%;
+  }
+  .card__text--name {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+  .card {
+    flex: 0 calc(50% - .75em);
+  }
+  .card__text--name {
+    font-size: 2.5rem;
+  }
+  .img2 {
+    background-position-x: 99%;
+    background-position-y: 69%;
+    background-size: 109%;
+  }
+  .img3 {
+    background-position-y: 22%;
+  }
+  .img5 {
+    background-position-y: 9%;
+  }
+  .img6 {
+    background-position-y: 24%;
+  }
+  .img8 {
+    background-position-y: 21%;
+  }
+  .card__text--name-kp {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .card {
+    flex: 3 0 calc(100% - 1em);
+  }
+  .header__nav--top {
+    margin-right: 1.5rem;
+  }
+  .header__nav--list {
+    display: none;
+  }
+  .header__nav--hamburger {
+    margin-bottom: .3rem;
+    display: block;
+  }
+  .card__text--name {
+    height: 2.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav__logo--item {
+    font-size: 4.55rem;
+    margin-right: 1rem;
+  }
+}
