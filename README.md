@@ -21,18 +21,24 @@ is an app that allows activists who have been arrested during direct actions to 
 
 # My Versions
 
+## Desktop
+
 ![alt text](./assets/mw-comp-challenger-1-my-version-desktop-1.png)
 
 ![alt text](./assets/mw-comp-challenger-1-my-version-desktop-2.png)
 
+## Tablet
+
 ![alt text](./assets/mw-comp-challenger-1-my-version-tablet.png)
+
+## Mobile
 
 ![alt text](./assets/mw-comp-challenger-1-my-version-mobile.png)
 
 
 # Original Comp
 
-![alt text](./assets/static-comp-challenge-2.png)
+![alt text](./assets/static-comp-challenge-1.png)
 
 
 
