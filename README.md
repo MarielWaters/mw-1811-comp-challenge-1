@@ -5,11 +5,11 @@ we were asked to create a static site to recreate the layout of a provided comp.
 
 # The concept behind my version...
 
-is a site/app that allows funds to be raised for activists who have been arrested during direct actions. With no regard for space or time, I selected a variety of iconic images from some of the many social movements in the last 100 years.
+is a site/app that allows funds to be raised for activists who have been arrested during direct actions. With no regard for space or time, I selected a variety of iconic images from some of the many social movements within the last century or so.
 
 # Things I learned:
 
-Pseudo-selectors are handy! In the `header`, I used `::before` and `::after` to set my icons with their `nav` items. Through that process I learned that if I want to see my icon, I better set a `height` and `width` with `content: “”` in order to create a  “pseudo-container” to fill with a `background-image`. Utilizing the `::before` and `::after` pseudo-selectors helped me more efficiently structure the layout and styling the `header`. In addition, using the `background-image` property to add decorate icons to the page is accessibility friendly! 
+Pseudo-selectors are handy! In the `header`, I used `::before` and `::after` to set my icons with their `nav` items. Through that process I learned if I want to see my icon, I better set a `height` and `width` with `content: “”` in order to create a  “pseudo-container” to fill with a `background-image`. Utilizing the `::before` and `::after` pseudo-selectors helped me more efficiently structure the layout and style the `header`. In addition, using the `background-image` property to add decorative icons to the page is accessibility friendly! 
 
 ### Example code:
 
@@ -38,17 +38,17 @@ Pseudo-selectors are handy! In the `header`, I used `::before` and `::after` to 
 ```
 
 
-# Remaining uncertainties and areas of improvement: 
+# Remaining uncertainties and areas for improvement: 
 
-Media queries. Although they have become much less mysterious, I now feel they are an art I never rightly appreciated. This site has three layouts for the queries: 4 cards per row, 2 cards per row, and single card column. Still, transitions could be smoother and issues with longer text overflowing containers are present. My way around this was `overflow: hidden`, but I know there must be a better way. 
+Media queries. Although they have become much less mysterious, I now feel they are an art I never rightly appreciated. This site has three layouts for the queries: 4 cards per row, 2 cards per row, and single card column. Still, transitions could be smoother and issues with longer text overflowing containers are present. My way around some of this was `overflow: hidden`, but I know there must be a better way. 
 
 # Wishlist:
 
-* to solve a responsiveness issue in Firefox that I did not encounter in Chrome or Safari, which is the logo image in the header dropping below the heading when the browser is reduced to about 540px.
+* to solve a responsiveness issue in Firefox that I did not encounter in Chrome or Safari, which is the logo image dropping below the `header` into the card container when the browser is reduced to about 540px.
 
-* more alt tags in the html for accessibility purposes.
+* more `alt` tags in the html for accessibility purposes.
 
-* to add hover state animations to rotate the cards, revealing a quote associated with either the activist or the movement they are a part of.
+* to add `:hover` state animations to rotate cards, revealing a quote associated with either the activist or the movement they are a part of.
 
 * to tighten up the historical accuracy. For example, I was only able to find the actual set bail amount for a few arrests. The ones that I did, like Rosa Parks, are converted to 2018 dollars.
 
