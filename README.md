@@ -48,9 +48,9 @@ Media queries. Although they have become much less mysterious, I now feel they a
 
 * more alt tags in the html for accessibility purposes.
 
-* to add hover state animationsthat would rotate the cards, revealing a quote associated with either the activist or the movement they are/were a part of.
+* to add hover state animations to rotate the cards, revealing a quote associated with either the activist or the movement they are a part of.
 
-* to tighten up the historical accuracy. For example, I was only able to find the actual set bail amount for a few arrests. The ones that I did, like Rosa Parks, I converted to 2018 dollars.
+* to tighten up the historical accuracy. For example, I was only able to find the actual set bail amount for a few arrests. The ones that I did, like Rosa Parks, are converted to 2018 dollars.
 
 
 # My Versions:
