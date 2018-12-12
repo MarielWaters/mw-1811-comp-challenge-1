@@ -53,25 +53,25 @@ Media queries. Although they have become much less mysterious, I now feel they a
 * to tighten up the historical accuracy. For example, I was only able to find the actual set bail amount for a few arrests. The ones that I did, like Rosa Parks, I converted to 2018 dollars.
 
 
-# My Versions
+# My Versions:
 
-## Desktop
+## Desktop:
 #### (Two screenshots)
 
 ![alt text](./assets/mw-comp-challenger-1-my-version-desktop-1.png)
 
 ![alt text](./assets/mw-comp-challenger-1-my-version-desktop-2.png)
 
-## Tablet
+## Tablet:
 
 ![alt text](./assets/mw-comp-challenger-1-my-version-tablet.png)
 
-## Mobile
+## Mobile:
 
 ![alt text](./assets/mw-comp-challenger-1-my-version-mobile.png)
 
 
-# Original Comp
+# Original Comp:
 
 ![alt text](./assets/static-comp-challenge-1.png)
 
