@@ -13,7 +13,8 @@ Pseudo-selectors are handy! In the `header`, I used `::before` and `::after` to 
 
 ### Example code:
 
-`.header__nav--top:after,
+```css
+.header__nav--top:after,
 .header__nav--top:before {
   content: "";
   display: inline-block;
@@ -33,7 +34,8 @@ Pseudo-selectors are handy! In the `header`, I used `::before` and `::after` to 
   margin-right: 1rem;
   margin-top: .25rem;
   width: 1rem;
-}`
+}
+```
 
 
 # Remaining uncertainties and areas of improvement: 
